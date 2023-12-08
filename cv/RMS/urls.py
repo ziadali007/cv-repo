@@ -28,4 +28,8 @@ urlpatterns = [
                
                path('noti',views.noti, name="noti" ),
 
+               path('EditProfile/',views.EditProfile, name="EditProfile" ),
+
+               path('ComProfile',views.ComProfile, name="ComProfile" ),
+
 ] 

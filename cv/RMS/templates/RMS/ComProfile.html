@@ -1,0 +1,245 @@
+{% extends 'RMS/main.html' %}
+{%load static%}
+{% block content %}
+<link rel="stylesheet", href="{%static 'css/style.css'%}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="container">
+  <div class="row">
+    <div class="col-xl-8">
+        <div class="card">
+            <div class="card-body pb-0">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <div class="text-center border-end">
+                            <img src="https://avatarfiles.alphacoders.com/210/210164.jpg" class="img-fluid avatar-xxl rounded-circle" alt="">
+                            <a href="EditProfile">
+                                <button type="button" onclick="location.href='EditProfile/'" class="btn btn-outline-dark" data-mdb-ripple-color="dark" style="z-index: 1;"> Edit profile </button>
+                            </a>
+                            <h4 class="text-primary font-size-20 mt-3 mb-2">Microsoft</h4>
+                            <h5 class="text-muted font-size-13 mb-0">Software Company</h5>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-md-9">
+                        <div class="ms-3">
+                            <div>
+                                <h4 class="card-title mb-2">Microsoft</h4>
+                                <p class="mb-0 text-muted">Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington. </p>
+                            </div>
+                            <div class="row my-4">
+                                <div class="col-md-12">
+                                    <div>
+                                        <p class="text-muted mb-2 fw-medium"><i class="mdi mdi-email-outline me-2"></i>Janshwells@probic.com
+                                        </p>
+                                        <p class="text-muted fw-medium mb-0"><i class="mdi mdi-phone-in-talk-outline me-2"></i>418-955-4703
+                                        </p>
+                                    </div>                                   
+                                </div>
+                                <button type="button" onclick="location.href='https://www.microsoft.com'" class="btn btn-link">www.microsoft.com</button>
+                                <!-- end col -->
+                            </div><!-- end row -->
+                         
+                            <ul class="nav nav-tabs nav-tabs-custom border-bottom-0 mt-3 nav-justfied" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link px-4 "  href="https://bootdey.com/snippets/view/profile-projects" target="__blank">
+                                        <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                        <span class="d-none d-sm-block">New Job</span>
+                                    </a>
+                                </li><!-- end li -->
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link px-4 "  href="https://bootdey.com/snippets/view/profile-projects" target="__blank">
+                                        <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                        <span class="d-none d-sm-block">Status</span>
+                                    </a>
+                                </li><!-- end li -->
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link px-4 "  href="https://bootdey.com/snippets/view/profile-with-team-section" target="__blank">
+                                        <span class="d-block d-sm-none"><i class="mdi mdi-account-group-outline"></i></span>
+                                        <span class="d-none d-sm-block">Jobs History</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link px-4 "  href="https://bootdey.com/snippets/view/profile-with-team-section" target="__blank">
+                                        <span class="d-block d-sm-none"><i class="mdi mdi-account-group-outline"></i></span>
+                                        <span class="d-none d-sm-block">Requirement Form</span>
+                                    </a>
+                                </li>
+                                <!-- end li -->
+                            </ul><!-- end ul -->
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end card body -->
+        </div><!-- end card -->
+
+        <div class="card">
+            <div class="tab-content p-4">
+                
+
+                <div class="tab-pane active show" id="tasks-tab" role="tabpanel">
+                    <h4 class="card-title mb-4">Posts</h4>
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="task-list-box" id="landing-task">
+                                <div id="task-item-1">
+                                    <div class="timeline-content">
+                                        <p class="lead">
+                                           <i class=""></i>
+                                           Quisque sed varius nisl. Nulla facilisi. Phasellus consequat sapien sit amet nibh molestie placerat. Donec nulla quam, ullamcorper ut velit vitae, lobortis condimentum magna. Suspendisse mollis in sem vel mollis.
+                                           <i class=""></i>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- end -->
+                            <hr>
+                            <br>
+
+                            <div class="task-list-box" id="design-task">
+                                <div id="task-item-2">
+                                    <div class="timeline-content">
+                                        <p class="lead">
+                                           <i class=""></i>
+                                           Quisque sed varius nisl. Nulla facilisi. Phasellus consequat sapien sit amet nibh molestie placerat. Donec nulla quam, ullamcorper ut velit vitae, lobortis condimentum magna. Suspendisse mollis in sem vel mollis.
+                                           <i class=""></i>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- end -->
+                            <hr>
+                            <br>
+
+                            <div class="task-list-box" id="blog-task">
+                                <div id="task-item-3">
+                                    <div class="timeline-content">
+                                        <p class="lead">
+                                           <i class=""></i>
+                                           Quisque sed varius nisl. Nulla facilisi. Phasellus consequat sapien sit amet nibh molestie placerat. Donec nulla quam, ullamcorper ut velit vitae, lobortis condimentum magna. Suspendisse mollis in sem vel mollis.
+                                           <i class=""></i>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- end -->
+                            <hr>
+                            <br>
+
+                            <div class="task-list-box" id="comp-task">
+                                <div id="task-item-4">
+                                    <div class="timeline-content">
+                                        <p class="lead">
+                                           <i class=""></i>
+                                           Quisque sed varius nisl. Nulla facilisi. Phasellus consequat sapien sit amet nibh molestie placerat. Donec nulla quam, ullamcorper ut velit vitae, lobortis condimentum magna. Suspendisse mollis in sem vel mollis.
+                                           <i class=""></i>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- end -->
+                            <hr>
+                            <br>
+
+                            <div class="task-list-box" id="app-task">
+                                <div id="task-item-5">
+                                    <div class="timeline-content">
+                                        <p class="lead">
+                                           <i class=""></i>
+                                           Quisque sed varius nisl. Nulla facilisi. Phasellus consequat sapien sit amet nibh molestie placerat. Donec nulla quam, ullamcorper ut velit vitae, lobortis condimentum magna. Suspendisse mollis in sem vel mollis.
+                                           <i class=""></i>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- end -->
+                            <hr>
+                            <br>           
+                            <div class="task-list-box" id="gallery-task">
+                                <div id="task-item-6">
+                                    <div class="timeline-content">
+                                        <p class="lead">
+                                           <i class=""></i>
+                                           Quisque sed varius nisl. Nulla facilisi. Phasellus consequat sapien sit amet nibh molestie placerat. Donec nulla quam, ullamcorper ut velit vitae, lobortis condimentum magna. Suspendisse mollis in sem vel mollis.
+                                           <i class=""></i>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like</a>
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment</a> 
+                                        <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share</a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- end -->
+
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end tab pane -->
+
+                
+            </div>
+        </div><!-- end card -->
+    </div><!-- end col -->
+
+    <div class="col-xl-4">
+        <div class="card">
+            <div class="card-body">
+                <div class="pb-2">
+                    <h4 class="card-title mb-3">About</h4>
+                    <p>Hi I'm Jansh, has been the industry's standard dummy text To an English
+                        person, it will seem like
+                        simplified.</p>
+                    <ul class="ps-3 mb-0">
+                        <li>it will seem like simplified.</li>
+                        <li>To achieve this, it would be necessary to have uniform pronunciation</li>
+                    </ul>
+                    <!-- end ul -->
+                </div>
+                <hr>
+                <br>
+                <div class="pb-2">
+                    <h4 class="card-title mb-3">Location</h4>
+                    <p>Hi I'm Jansh, has been the industry's standard dummy text To an English
+                        person, it will seem like
+                        simplified.</p>
+                    <ul class="ps-3 mb-0">
+                        <li>it will seem like simplified.</li>
+                        <li>To achieve this, it would be necessary to have uniform pronunciation</li>
+                    </ul>
+                    <!-- end ul -->
+                </div>
+                
+            </div><!-- end cardbody -->
+        </div><!-- end card -->
+
+       
+    </div><!-- end col -->
+ </div>
+</div>
+
+{% endblock %}
