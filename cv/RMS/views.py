@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 from django.urls import path
-from django.http import HttpResponse
+from django.http import HttpResponse,HttpResponseRedirect
 
 
 def home(request):
@@ -36,3 +36,14 @@ def about(request):
 
 def noti(request):
      return render(request,"RMS/noti.html")
+
+def EditProfile(request):
+     return render(request,"RMS/EditProfile.html")
+
+def ComProfile(request):
+     return render(request,"RMS/ComProfile.html")
+
+
+
+def companies(request):
+     return render(request,"RMS/companies.html")

@@ -1,6 +1,168 @@
-.navbar {
-    width: 100%;
-    height: 160px;
-    padding: 10px;
+body {
+  margin: 0;
+
+  display: flex;
+  background-image: url("../images/back2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* button container */
+.main-content {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+/* row */
+.departments {
+  column-count: 3; /* Set the number of columns */
+  column-gap: 100px; /* Adjust the gap between columns */
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 120px; /* Adjust the spacing between buttons */
+}
+/* my button*/
+.department-btn {
+  background-color: #3498db;
+            color: #fff;
+            padding: 40px 60px;
+            font-size: 26px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+}
+
+.department-btn :hover {
+  background-color: #2980b9;
+}
+
+#button1 {
+  background-color: #001F3F;
+}
+
+#button2 {
+  background-color: #001F3F;
+}
+
+#button3 {
+  background-color: #001F3F;
+}
+
+#button4 {
+  background-color: #001F3F;
+}
+
+#button5 {
+  background-color: #001F3F;
+}
+
+#button6 {
+  background-color: #001F3F;
+}
+
+
+
+
+
+  .signup-box{
+    width:330px;
+    height:650px;
+    margin:auto;
+    background-color:rgb(100, 100, 200);
+    border-radius: 5px;
+   
+  }
+  h1{
+    text-align: center;
+    padding-top: 15px;
+
+  }
+  h4{
+    text-align: center;
+  }
+  form{
+
+    width:300px;
+    margin-left: 20px;
+
+  }
+  form label {
+    display: flex;
+    margin-top: 30px;
     font-size: 18px;
   }
+form input{
+  width: 300px;
+  padding: 7px;
+  border: none;
+  border: 1px solid rgb(19, 18, 17);
+  border-radius: 6px;
+  outline: none;
+}
+ .btn btn-primary{
+  width: 320;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color:white;
+  color: rgb(9, 9, 10);
+  font-size: 18px;
+ }
+ p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+ }
+ 
+ .para-1{
+  text-align: center;
+  color: rgb(67, 73, 179);
+  font-size: 15px;
+  margin-top: -10px;
+ }
+ .para-1 a {
+color: rgb(17, 22, 21);
+
+ }
+ .container1{
+  width: 350px;
+  height:450px;
+  margin:auto;
+  background-color:rgb(100, 100, 200);
+  border-radius: 5px;
+  align-items: center;
+ 
+}
+h1{
+  text-align: center;
+  padding-top: 15px;
+
+}
+h4{
+  text-align: center;
+}
+form{
+
+  width:280px;
+  margin-left: 20px;
+
+}
+form label {
+  display: flex;
+  margin-top: 30px;
+  font-size: 18px;
+}
+form input{
+width: 300px;
+padding: 7px;
+border: none;
+border: 1px solid rgb(24, 23, 23);
+border-radius: 6px;
+outline: none;
+}
