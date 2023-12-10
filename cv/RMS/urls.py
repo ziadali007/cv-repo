@@ -31,5 +31,6 @@ urlpatterns = [
                path('EditProfile/',views.EditProfile, name="EditProfile" ),
 
                path('ComProfile',views.ComProfile, name="ComProfile" ),
+               path('companies',views.companies, name="companies" ),
 
 ] 

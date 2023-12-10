@@ -42,3 +42,8 @@ def EditProfile(request):
 
 def ComProfile(request):
      return render(request,"RMS/ComProfile.html")
+
+
+
+def companies(request):
+     return render(request,"RMS/companies.html")
